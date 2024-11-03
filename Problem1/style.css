@@ -30,7 +30,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(2, 0, 6, 0.5); /* Semi-transparent overlay */
+    background-color: rgba(2, 0, 6, 0.5); 
 }
 
 
@@ -93,10 +93,10 @@ nav {
 
 footer {
     margin-top: 20px;
-    width: 100%; /* Ensure the footer spans the entire width of the window */
-    background-color: #857190; /* Example background color */
-    color: white; /* Example text color */
-    padding: 10px 0; /* Add padding for spacing */
+    width: 100%; 
+    background-color: #857190; 
+    color: white; 
+    padding: 10px 0; 
 }
 
 .footer {
