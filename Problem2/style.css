@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 500px 1fr 1fr;
+    grid-template-rows: 500px 1fr 550px 1fr;
 }
 
 header {
@@ -24,17 +24,19 @@ h1 {
 }
 
 #sidebar {
-    display: flex; /* Use Flexbox to center content */
-    flex-direction: column; /* Arrange children in a column */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     gap: 10px;
     padding: 20px;
-    width: 80%;
+    max-width: 300px;
     margin: 0 auto;
     text-align: center;
     background-color: #58576d;
     color: white;
+    overflow-y: auto;
+    word-wrap: break-word;
 }
 
 
